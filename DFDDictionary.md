@@ -11,6 +11,7 @@ NIST Vulnerabilities Database:
 
 Policy Database:
 
+
 Processes
 
 Manage Software Package for License Scanning and Check for Vulnerabilies:
@@ -24,6 +25,7 @@ Query the Database to Retrieve all Software Package License and Vulnerability In
 Query the Policy Database:
 
 Add or Modify Policy:
+
 
 Dataflows
 
