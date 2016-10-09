@@ -1,4 +1,4 @@
-Entities
+#Entities
 
 Developer: A person that submits Software Packages to be populated into the database as well as requests Policy information.
 
@@ -11,7 +11,7 @@ NIST Vulnerabilities Database: A database containing vulnerability information u
 
 Policy Database: A database containing policy information used by both a Manager and a Developer.
 
-Processes
+#Processes
 
 Manage Software Package for License Scanning/Vulnerabilies Check: a process used by a developer that forwards software packages to scan for licenses and check for vulnerabilities as well as storing the data within the Software Package License and Vulnerabilities Results Database and reporting results back to the developer.
 
@@ -25,7 +25,7 @@ Query the Policy Database: a process used by both manager and developer to check
 
 Add or Modify Policy: a process used by a manager to add a new policy to or modify an existing policy within the policy database.
 
-Dataflows
+#Dataflows
 
 Software Package: The software submitted by the developer to be scanned for licenses, checked for vulnerabilities, and populated into the Software Package License and Vulnerabilities Results Database.
 
