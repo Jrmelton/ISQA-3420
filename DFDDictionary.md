@@ -13,36 +13,36 @@ Policy Database: A database containing policy information used by both a Manager
 
 Processes
 
-Manage Software Package for License Scanning/Vulnerabilies Check: a process used by a developer that forwards software packages to scan for licenses and check for vulnerabilities as well as storing the data within the Software Package License and Vulnerabilities Results Database.
+Manage Software Package for License Scanning/Vulnerabilies Check: a process used by a developer that forwards software packages to scan for licenses and check for vulnerabilities as well as storing the data within the Software Package License and Vulnerabilities Results Database and reporting results back to the developer.
 
-Manage Software Vulnerabiltiy Checking:
+Manage Software Vulnerabiltiy Checking: a process to check the NIST Vulnerability Database for vulnerabilities using the Software Package to be sent back to the Developer and recorded within the Software Package License and Vulnerabilities Results Database via the Manage Software Package for License Scanning/Vulnerabilies Check.
 
-Scan for Licenses:
+Scan for Licenses: a process to scan the Software Package to verify license information to be sent back to the Developer and recorded within the Software Package License and Vulnerabilities Results Database via the Manage Software Package for License Scanning/Vulnerabilies Check.
 
-Query the Database to Retrieve all Software Package License and Vulnerability Information:
+Query the Database to Retrieve all Software Package License and Vulnerability Information: a process used by the manager to retrieve the information located within the Software Package License and Vulnerability Information Database for a software package and return the information to the manager.
 
-Query the Policy Database:
+Query the Policy Database: a process used by both manager and developer to check the policy database for policy information.
 
-Add or Modify Policy:
+Add or Modify Policy: a process used by a manager to add a new policy to or modify an existing policy within the policy database.
 
 Dataflows
 
-Software Package: The software submitted by the developer to be scanned for OSS licenses and populated into the databse.
+Software Package: The software submitted by the developer to be scanned for licenses, checked for vulnerabilities, and populated into the Software Package License and Vulnerabilities Results Database.
 
-Software Package Name:
+Software Package Name: the specific name of a software package to be used for checking the NIST Vulnerabilities Database for software vulnerabilities.
 
-Published Known Vulnerabilities:
+Published Known Vulnerabilities: specific software vulnerabilties within the NIST Vulnerability Database classified with the specific software package license information to be stored within the Software Package License and Vulnerabilities Results Database.
 
-Software Package License Results:
+Software Package License Results: specific software licenses to be stored within the Software Package License and Vulnerabilities Results Database with the corresponding software package's published known vulnerabilities.
 
-Software Package License and Vulnerability Information Request:
+Software Package License and Vulnerability Information Request: a request made by a manager or developer to obtain information from the Software Package License and Vulnerabilities Results Database regarding a specific software package.
 
-Software Package License and Vulnerability Information Response:
+Software Package License and Vulnerability Information Response: a response from the Software Package License and Vulnerabilities Results Database for the manager or developer.
 
-Policy Information Request:
+Policy Information Request: a request made by a manager or developer to obtain information from the Policy Database regarding a specific software package.
 
-Policy Information Response:
+Policy Information Response: a response from the Policy Database for the manager or developer.
 
-New Policy:
+New Policy: a policy submitted by the manager to be added into the Policy Database.
 
-Modify Policy:
+Modify Policy: a modified policy submitted by the manager to be updated within the Poliocy Database.
