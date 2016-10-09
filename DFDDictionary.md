@@ -7,7 +7,8 @@ A person that submits Software Packages to be populated into the database as wel
 A user that submits requests for Software  Package information from the Software Package License and Vulnerabilities Results Database as well as sumbits requests for adding new policies, modifying policies, and obtaining policy information in the Policy Database.
 
 #Datastores
-###Software Package License and Vulnerabilities Results Database: 
+
+###Software Package License and Vulnerabilities Results Database
 A database containing the results from the Policy Scan and Vulnerability Check.
 
 ###NIST Vulnerabilities Database
