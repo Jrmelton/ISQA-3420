@@ -1,4 +1,4 @@
-Use Case 1:
+#Use Case 1:
 Title: Determine License and Velnerability Information
 
 Primary Actor: Manager
@@ -20,7 +20,7 @@ Failed End Conditions: Manager receives inaccurate or invalid license and vulner
 
 Trigger: Manager sends the request for all license and vulnerability information
 
-Use Case 2:
+#Use Case 2:
 Title: 
 
 Primary Actor: 
@@ -39,7 +39,7 @@ Failed End Conditions:
 
 Trigger: 
 
-Use Case 3:
+#Use Case 3:
 Title: 
 
 Primary Actor: 
