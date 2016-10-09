@@ -1,4 +1,4 @@
-#Use Case 1:
+#Use Case 1
 Title: Determine License and Vulnerability Information
 
 Primary Actor: Manager
@@ -17,7 +17,7 @@ Failed End Conditions: Manager receives inaccurate or invalid license and vulner
 
 Trigger: Manager sends the request for all license and vulnerability information
 
-#Use Case 2:
+#Use Case 2
 Title: Add New Policy
 
 Primary Actor: Manager
@@ -35,7 +35,7 @@ Failed End Conditions: The policy is not successfully added into the Policy Data
 
 Trigger: Manager submits a new policy.
 
-#Use Case 3:
+#Use Case 3
 Title: Modify Policy
 
 Primary Actor: Manager
